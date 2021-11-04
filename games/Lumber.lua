@@ -9,7 +9,7 @@ local main = library:CreateMain({
 	projName = "Exxen$$$",
 	Resizable = true,
 	MinSize = UDim2.new(0,400,0,400),
-	MaxSize = UDim2.new(0,750,0,500),
+	MaxSize = UDim2.new(0,750,0,500)
 })
 
 local plr = game.Players.LocalPlayer
