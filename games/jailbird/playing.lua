@@ -235,6 +235,7 @@ reportsec:Create("Textlabel","You've been reported for hacking "..report.Hacking
 reportsec:Create("Textlabel","You've been reported for TKing "..report.TeamKilling.Value.." times.")
 reportsec:Create("Textlabel","You've been reported for griefing "..report.Griefing.Value.." times.")
 reportsec:Create("Textlabel","You've been reported for being toxic "..report.ToxicBehaviour.Value.." times.")
+reportsec:Create("Textlabel","------------------------------------------------------------------")
 for i,v in pairs(report.PlayersReported:GetChildren()) do
     reportsec:Create("Textlabel","You have reported "..v.Name)
 end
