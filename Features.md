@@ -13,6 +13,7 @@
  └For hacking, tking, griefing, and being toxic<br/>
  └Shows who you reported<br/>
 • Kiriot ESP
+• Walkspeed
 # Sharkbite (FINISH L8R)
 # Operation Overlord (FINISH L8R)
 # Lumber Tycoon 2 (FINISH L8R)
