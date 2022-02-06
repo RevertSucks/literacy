@@ -1,3 +1,5 @@
+## I DO NOT LOG ANY PERSONAL INFORMATION. OBFUSCATION IS TO WARD OFF THE DEVELOPERS OF THE GAME
+
 # Jailbird
 • Gun mods | to apply ammo reload, others switch to secondary and back<br/>
  └Ammo<br/>
@@ -14,6 +16,7 @@
  └Shows who you reported<br/>
 • Kiriot ESP
 • Walkspeed
+• Custom killfeed icon
 # Sharkbite (FINISH L8R)
 # Operation Overlord (FINISH L8R)
 # Lumber Tycoon 2 (FINISH L8R)
