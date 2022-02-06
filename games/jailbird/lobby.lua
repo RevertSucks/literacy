@@ -21,10 +21,13 @@ local reportsec = reportcat:CreateSection("Reports")
 
 local report = plr.PlayerData.Report
 
+reportsec:Create("Textlabel","Welcome "..plr.DisplayName.." re-execute in game to see full menu")
+reportsec:Create("Textlabel","------------------------------------------------------------------")
 reportsec:Create("Textlabel","You've been reported for hacking "..report.Hacking.Value.." times.")
 reportsec:Create("Textlabel","You've been reported for TKing "..report.TeamKilling.Value.." times.")
 reportsec:Create("Textlabel","You've been reported for griefing "..report.Griefing.Value.." times.")
 reportsec:Create("Textlabel","You've been reported for being toxic "..report.ToxicBehaviour.Value.." times.")
+reportsec:Create("Textlabel","------------------------------------------------------------------")
 for i,v in pairs(report.PlayersReported:GetChildren()) do
     reportsec:Create("Textlabel","You have reported "..v.Name)
 end
