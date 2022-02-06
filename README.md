@@ -2,7 +2,7 @@
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RevertSucks/literacy/main/Main.lua"))()
 ```
-[Features](https://github.com/RevertSucks/literacy/blob/main/Features.md)
+# [Features](https://github.com/RevertSucks/literacy/blob/main/Features.md)
 # Individual Scripts
 ESP
 ```lua
