@@ -14,8 +14,8 @@
 • Display reports<br/>
  └For hacking, tking, griefing, and being toxic<br/>
  └Shows who you reported<br/>
-• Kiriot ESP
-• Walkspeed
+• Kiriot ESP<br/>
+• Walkspeed<br/>
 • Custom killfeed icon
 # Sharkbite (FINISH L8R)
 # Operation Overlord (FINISH L8R)
