@@ -28,7 +28,7 @@ local maincat = main:CreateCategory("Main")
 local espcat = main:CreateCategory("ESP (Kiriot)")
 local espsec = espcat:CreateSection("ESP")
 local gunmods = maincat:CreateSection("Guns")
-local misc = maincat:CreateSection("Ping Spoof")
+local misc = maincat:CreateSection("Main Misc")
 local reportcat = main:CreateCategory("Report Info")
 local reportsec = reportcat:CreateSection("Reports")
 
@@ -228,6 +228,21 @@ end,
         animated = true,
     }
 )
+
+misc:Create("Toggle","Anti VK (obvious)",function(state)
+    while wait(.5) do
+        local rplr = game.Players:GetPlayers()[math.random(#game.Players:GetPlayers())]
+        if state == true then
+            if rplr.Name ~= plrname then
+                game:GetService("ReplicatedStorage").GameEvents.VoteKick:FireServer(rplr.Name)
+            end
+        end
+    end
+   end,
+       {
+           default = false,
+       }
+   )
 
 local report = plr.PlayerData.Report
 
