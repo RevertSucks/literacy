@@ -1,5 +1,5 @@
 # Jailbird
-• Gun mods | for the following<br/>
+• Gun mods | to apply ammo reload, others switch to secondary and back<br/>
  └Ammo<br/>
  └Damage<br/>
  └Firerate +makes all guns auto<br/>
