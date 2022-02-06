@@ -11,7 +11,8 @@
  └Vote kicks other players to avoid them kicking you<br/>
 • Display reports<br/>
  └For hacking, tking, griefing, and being toxic<br/>
- └Shows who you reported
+ └Shows who you reported<br/>
+• Kiriot ESP
 # Sharkbite (FINISH L8R)
 # Operation Overlord (FINISH L8R)
 # Lumber Tycoon 2 (FINISH L8R)
