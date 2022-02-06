@@ -19,6 +19,7 @@ local firerate= false
 local recoil= false
 local spread= false
 local autoapply=false
+local speedvar = 16
 local plr = game.Players.LocalPlayer
 local plrname = plr.Name
 local mouse = plr:GetMouse()
@@ -186,6 +187,28 @@ if autoapply == true then
 end
 end)
 
+misc:Create("Slider","Walkspeed",function(value)
+    speedvar = value
+end,
+    {
+        min = 16,
+        max = 250,
+        default = 16,
+        precise = false
+    }
+)
+
+local walkspeed = game:GetService("RunService").RenderStepped:Connect(function()
+    if plr then
+        if plr.Character:FindFirstChild("Humanoid") then
+            if plr.Character:FindFirstChildOfClass("Humanoid").WalkSpeed ~= 0 then
+                plr.Character.Humanoid.WalkSpeed = speedvar
+            end
+        end
+    end
+end)
+
+
 misc:Create("Slider","Ping Spoof",function(value)
     game:GetService("ReplicatedStorage").GameEvents.SendPing:FireServer(value)
 end,
@@ -264,4 +287,12 @@ mouse.KeyDown:connect(function(key)
             gui.Visible = true
         end
     end
+end)
+
+local closeScript = game:GetService("CoreGui").ChildRemoved:Connect(function(child)
+    if child.Name == "Exxen$$$" then
+        walkspeed:Disconnect()
+        speedvar = 16
+        closeScript:Disconnect()
+    end 
 end)
