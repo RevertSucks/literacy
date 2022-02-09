@@ -17,7 +17,9 @@
 • Kiriot ESP<br/>
 • Walkspeed<br/>
 • Custom killfeed icon<br/>
-• Aimbot w/ FOV
+• Aimbot w/ FOV<br/>
+• Report All<br/>
+• Votekick Anyone
 # Sharkbite (FINISH L8R)
 # Operation Overlord (FINISH L8R)
 # Lumber Tycoon 2 (FINISH L8R)
