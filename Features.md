@@ -1,24 +1,24 @@
 ## I DO NOT LOG ANY PERSONAL INFORMATION. OBFUSCATION IS TO WARD OFF THE DEVELOPERS OF THE GAME
 
 # Jailbird
-• Gun mods | to apply ammo reload, others switch to secondary and back<br/>
- └Ammo<br/>
- └Damage<br/>
- └Firerate +makes all guns auto<br/>
- └Recoil & spread control<br/>
-• Ping spoof<br/>
- └-10000-10000<br/>
+• Gun mods | to apply ammo reload, others switch to secondary and back  
+ └Ammo  
+ └Damage  
+ └Firerate +makes all guns auto  
+ └Recoil & spread control  
+• Ping spoof  
+ └-10000-10000  
  └Lock ping<br/>
-• Anti Votekick<br/>
- └Vote kicks other players to avoid them kicking you<br/>
-• Display reports<br/>
- └For hacking, tking, griefing, and being toxic<br/>
- └Shows who you reported<br/>
-• Kiriot ESP<br/>
-• Walkspeed<br/>
-• Custom killfeed icon<br/>
-• Aimbot w/ FOV<br/>
-• Report All<br/>
+• Anti Votekick  
+ └Vote kicks other players to avoid them kicking you  
+• Display reports  
+ └For hacking, tking, griefing, and being toxic  
+ └Shows who you reported  
+• Kiriot ESP  
+• Walkspeed  
+• Custom killfeed icon  
+• Aimbot w/ FOV  
+• Report All  
 • Votekick Anyone
 # Sharkbite (FINISH L8R)
 # Operation Overlord (FINISH L8R)
