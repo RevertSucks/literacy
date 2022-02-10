@@ -20,6 +20,7 @@
 • Aimbot w/ FOV  
 • Report All  
 • Votekick Anyone
+• Mark anyone (annoying asf for your team)
 # Sharkbite (FINISH L8R)
 # Operation Overlord (FINISH L8R)
 # Lumber Tycoon 2 (FINISH L8R)
