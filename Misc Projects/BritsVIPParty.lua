@@ -1,6 +1,5 @@
 --[[
 game link: https://www.roblox.com/games/8656125900/Brits-VIP-Party-ft-PinkPantheress
-DO NOT RUN AT THE SAME TIME, IT MAY WORK BUT THEY WERE NOT MEANT TO BE RAN LIKE THAT
 ]]--
 
 --collects all coins
