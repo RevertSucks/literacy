@@ -126,6 +126,74 @@ end,
         default = false,
     }
 )
+esp:AddObjectListener(game:GetService("Workspace").Entities, {
+    Color =  Color3.new(1,1,0),
+    Type = "Model",
+    PrimaryPart = function(itm)
+        repeat wait() until itm.Main
+        return itm.Main
+    end,
+    CustomName = function(itm)
+        if tostring(itm) ~= nil or "" then
+            return tostring(itm)
+        elseif itm.Name ~= nil or "" then
+            return itm.Name
+        end
+    end,
+    IsEnabled = "Items",
+})
+game:GetService("Workspace").Entities.ChildAdded:Connect(function(obj)
+    esp:Add(obj, {
+    Type = "Model",
+    CustomName = function(itm)
+        if tostring(itm) ~= nil or "" then
+            return tostring(itm)
+        elseif itm.Name ~= nil or "" then
+            return itm.Name
+        end
+    end,
+    Color = Color3.new(1,1,0),
+    PrimaryPart = function(itm)
+        repeat wait() until itm.Main
+        return itm.Main
+    end,
+    IsEnabled = "Items"
+    })
+end)
+esp:AddObjectListener(game:GetService("Workspace").Entities, {
+    Name = "Shipment",
+    CustomName = function(itm)
+        return itm.shipment.type.Value.." Shipment"
+    end,
+    Color = Color3.fromRGB(255, 255, 0),
+    IsEnabled = "Items"
+})
+game:GetService("Workspace").Entities.ChildAdded:Connect(function(obj)
+    esp:Add(obj, {
+        Name = "Shipment",
+        CustomName = function(itm)
+            return itm.shipment.type.Value.." Shipment"
+        end,
+        Color = Color3.fromRGB(255, 255, 0),
+        IsEnabled = "Items"
+    })
+end)
+
+ESPTypes:Create("Toggle","Players",function(state)
+    esp.Players = state
+end,
+    {
+        default = false,
+    }
+)
+
+ESPTypes:Create("Toggle","Printers/Shipments",function(state)
+    esp.Items = state
+end,
+    {
+        default = false,
+    }
+)
 
 
 MiscCat:Create("Button","Close UI",function()
