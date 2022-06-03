@@ -317,6 +317,17 @@ misc:Toggle("No NLR Bubble", false, function(toggle)
     end
 end)
 
+misc:Button("Grab Crates", function()
+    for i,v in pairs(workspace:GetChildren()) do
+        if v.Name == "CrateSpawner" and v:FindFirstChild("Crate") then
+            teleport(15,v.Crate.CFrame)
+            v.Crate.CanCollide = false
+            wait(.1)
+            game:GetService("ReplicatedStorage").Events.ActionHandler2:FireServer(v.Crate.lootcrate, pickuptbl)
+        end
+    end
+end)
+
 misc:Button("Close UI", function()
     destroyold()
 end)
